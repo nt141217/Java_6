@@ -54,7 +54,7 @@ public class Main{
         System.out.println(x);
 
 
-        int b = ++ a ; // a = 6 , b = 6
+        int b = ++ a ; 
         int c = 5;
         int d = c ++; 
         System.out.println(b);

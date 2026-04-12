@@ -21,10 +21,10 @@ public class IncrementDecrementOperators {
 
     public void incrementExamples() {
         int a = 5;
-        int b = ++a; // a=6, b=6
+        int b = ++a; 
 
         int c = 5;
-        int d = c++; // c=6, d=5
+        int d = c++; 
 
         System.out.println("Prefix increment: a = " + a + ", b = " + b);
         System.out.println("Postfix increment: c = " + c + ", d = " + d);
@@ -32,10 +32,10 @@ public class IncrementDecrementOperators {
 
     public void decrementExamples() {
         int a = 5;
-        int b = --a; // a=4, b=4
+        int b = --a; 
 
         int c = 5;
-        int d = c--; // c=4, d=5
+        int d = c--;
 
         System.out.println("Prefix decrement: a = " + a + ", b = " + b);
         System.out.println("Postfix decrement: c = " + c + ", d = " + d);
