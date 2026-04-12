@@ -1,3 +1,4 @@
+package com.example;
 public class ValidationExample {
 
     public static double calculateAverage(int sum, int count) {

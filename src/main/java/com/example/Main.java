@@ -1,5 +1,7 @@
+package com.example;
 public class Main{
     public static void main (String args []){
+
 
         int a = 2 + 3;
         String s = " Tech " + " Corp "; 
@@ -154,67 +156,68 @@ public class Main{
         int h = (int) x ; 
 
 
-        Employee employee = new Employee("Natalia", 97, 123.90);
+//         Employee employee = new Employee("Natalia", 97, 123.90);
 
-        if(!(employee instanceof Developer)){
-            System.out.println("This employee is not a developer."); 
-        }
+//         if(!(employee instanceof Developer)){
+//             System.out.println("This employee is not a developer."); 
+//         }
 
-         if(employee instanceof Developer){
-            System.out.println("This employee is a developer."); 
-        }
+//          if(employee instanceof Developer){
+//             System.out.println("This employee is a developer."); 
+//         }
 
-        double xxx = 9.7;
-        int yyyy = (int) xxx ; 
+//         double xxx = 9.7;
+//         int yyyy = (int) xxx ; 
 
-        System.out.println(yyyy);
+//         System.out.println(yyyy);
 
-        Employee e = new Employee (" Anna ", 8 , 7000) ;
-        e.getName () ;
+//         Employee e = new Employee (" Anna ", 8 , 7000) ;
+//         e.getName () ;
 
-        int [] numbers = {1 , 2 , 3};
-        int firstNumber = numbers [0];
+//         int [] numbers = {1 , 2 , 3};
+//         int firstNumber = numbers [0];
 
-        System.out.println(" Hello ");
-        int xxxxx = (2 + 3) * 4;
+//         System.out.println(" Hello ");
+//         int xxxxx = (2 + 3) * 4;
 
-        System.out.println(xxxxx);
+//         System.out.println(xxxxx);
 
-        System.out.println(divide(5,6));
+//         System.out.println(divide(5,6));
 
-        try {
-                int resulttt = 10 / 0;
-                } catch ( ArithmeticException except ) {
-                    System.out.println (" Division by zero is not allowed .") ;
-                    }
+//         try {
+//                 int resulttt = 10 / 0;
+//                 } catch ( ArithmeticException except ) {
+//                     System.out.println (" Division by zero is not allowed .") ;
+//                     }
 
-        try {
-            Employee em = new Employee("", 5, 3000);
-            } catch (IllegalArgumentException iae) {
-        System.out.println("Invalid employee data: " + iae.getMessage());
-            }    
+//         try {
+//             Employee em = new Employee("", 5, 3000);
+//             } catch (IllegalArgumentException iae) {
+//         System.out.println("Invalid employee data: " + iae.getMessage());
+//             }    
 
-                try {
-         System.out.println (" Trying ...") ;
-         } catch ( Exception exx ) {
-         System.out.println(" Caught exception .") ;
-         } finally {
-         System.out.println(" This always runs .") ;
-         }
+//                 try {
+//          System.out.println (" Trying ...") ;
+//          } catch ( Exception exx ) {
+//          System.out.println(" Caught exception .") ;
+//          } finally {
+//          System.out.println(" This always runs .") ;
+//          }
 
 
-}
-/*
-    public static int divide ( int a , int b ) {
-        return a / b ;
-     }
-     */
-    public static int divide(int a, int b) {
-    if (b == 0) {
-        throw new IllegalArgumentException("Divisor must not be zero.");
-    }
+// }
+// /*
+//     public static int divide ( int a , int b ) {
+//         return a / b ;
+//      }
+//      */
+//     public static int divide(int a, int b) {
+//     if (b == 0) {
+//         throw new IllegalArgumentException("Divisor must not be zero.");
+//     }
 
-    return a / b;
+//     return a / b;
+    
 }
 
     // public static void readFile () throws IOException {
