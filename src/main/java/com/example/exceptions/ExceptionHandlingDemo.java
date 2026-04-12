@@ -111,6 +111,30 @@ public class ExceptionHandlingDemo {
             System.out.println("Validation failed: " + e.getMessage());
         }
 
+
+        System.out.println("\n=== Exercise 2: Type-Dependent Meaning ===");
+        int sum = 7 + 5;
+        String text = "Tech" + "Corp";
+
+        System.out.println("With numbers: 7 + 5 = " + sum);
+        System.out.println("With strings: \"Tech\" + \"Corp\" = " + text);
+
+        System.out.println("\n=== Exercise 3: Validation of Input ===");
+        try {
+            int cost = ValidationUtils.calculateMonthlyCost(5, 4000);
+            System.out.println("Monthly cost for 5 employees and salary 4000 = " + cost);
+        } catch (IllegalArgumentException e) {
+            System.out.println("Validation failed: " + e.getMessage());
+        }
+
+        System.out.println("\n=== Exercise 4: Catching Exceptions ===");
+        try {
+            int invalidCost = ValidationUtils.calculateMonthlyCost(0, -1000);
+            System.out.println("Monthly cost = " + invalidCost);
+        } catch (IllegalArgumentException e) {
+            System.out.println("Meaningful error message: " + e.getMessage());
+        }
+
         System.out.println("\nExercise 5 divide:");
         try {
             System.out.println("10 / 2 = " + ValidationUtils.divide(10, 2));
@@ -120,3 +144,5 @@ public class ExceptionHandlingDemo {
         }
     }
 }
+
+
